@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "260116_1_atama_operatorleri": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

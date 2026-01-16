@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "260313_4_ornek": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
