@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260129_dik_ucgen", "260129_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260129_dık_ucgen_ters_sayi", "260129_dık_ucgen_ters_sayi\260129_dık_ucgen_ters_sayi.csproj", "{17D9FD4B-D0A9-4A8B-B301-BC5B748B91DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260129_7_ters_dık_ucgenfor", "260129_7_ters_dık_ucgenfor\260129_7_ters_dık_ucgenfor.csproj", "{7B6A695B-B5A4-4D88-9E27-36B9FF82579A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +91,10 @@ Global
 		{17D9FD4B-D0A9-4A8B-B301-BC5B748B91DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17D9FD4B-D0A9-4A8B-B301-BC5B748B91DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17D9FD4B-D0A9-4A8B-B301-BC5B748B91DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6A695B-B5A4-4D88-9E27-36B9FF82579A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6A695B-B5A4-4D88-9E27-36B9FF82579A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6A695B-B5A4-4D88-9E27-36B9FF82579A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6A695B-B5A4-4D88-9E27-36B9FF82579A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +112,7 @@ Global
 		{5B57D984-69E8-4AE4-BE33-7ECBB51A279A} = {9CD0402B-F0BB-428E-8066-1109ACA44F29}
 		{D94965FC-157F-46E8-AC9C-2D743C6FFAEE} = {9CD0402B-F0BB-428E-8066-1109ACA44F29}
 		{17D9FD4B-D0A9-4A8B-B301-BC5B748B91DD} = {9CD0402B-F0BB-428E-8066-1109ACA44F29}
+		{7B6A695B-B5A4-4D88-9E27-36B9FF82579A} = {9CD0402B-F0BB-428E-8066-1109ACA44F29}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71113CE3-D63B-4187-801C-91F0BDC86E51}
