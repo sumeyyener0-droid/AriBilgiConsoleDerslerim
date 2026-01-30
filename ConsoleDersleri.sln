@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260129_dık_ucgen_ters_sayi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260129_7_ters_dık_ucgenfor", "260129_7_ters_dık_ucgenfor\260129_7_ters_dık_ucgenfor.csproj", "{7B6A695B-B5A4-4D88-9E27-36B9FF82579A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260130_diziler_", "260130_diziler_\260130_diziler_.csproj", "{6D0A4A1C-D3D4-469D-8753-53AC8D9DB3D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{7B6A695B-B5A4-4D88-9E27-36B9FF82579A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B6A695B-B5A4-4D88-9E27-36B9FF82579A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B6A695B-B5A4-4D88-9E27-36B9FF82579A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D0A4A1C-D3D4-469D-8753-53AC8D9DB3D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0A4A1C-D3D4-469D-8753-53AC8D9DB3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0A4A1C-D3D4-469D-8753-53AC8D9DB3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0A4A1C-D3D4-469D-8753-53AC8D9DB3D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +119,7 @@ Global
 		{D94965FC-157F-46E8-AC9C-2D743C6FFAEE} = {9CD0402B-F0BB-428E-8066-1109ACA44F29}
 		{17D9FD4B-D0A9-4A8B-B301-BC5B748B91DD} = {9CD0402B-F0BB-428E-8066-1109ACA44F29}
 		{7B6A695B-B5A4-4D88-9E27-36B9FF82579A} = {9CD0402B-F0BB-428E-8066-1109ACA44F29}
+		{6D0A4A1C-D3D4-469D-8753-53AC8D9DB3D9} = {9CD0402B-F0BB-428E-8066-1109ACA44F29}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71113CE3-D63B-4187-801C-91F0BDC86E51}
