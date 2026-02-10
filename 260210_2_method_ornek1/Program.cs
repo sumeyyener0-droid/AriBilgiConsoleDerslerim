@@ -42,7 +42,7 @@ namespace _260210_2_method_ornek1
             return sayi;
         }
 
-        static int islem(int sayi1,int toplam)
+        static int Islem(int sayi1,int toplam)
         {
             return toplam + sayi1;
         }
