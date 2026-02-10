@@ -7,7 +7,7 @@
             EkranaYaZ("1. sayıyı giriniz:");
             int sayi1 = IntYap();
             //int sayi1=Convert.ToInt32(Console.ReadLine());
-            //int sayi1=Convert.ToInt32(oku());
+            //int sayi1=Convert.ToInt32(oku   ());
             EkranaYaZ("Girilen sayı:" + sayi1);
         }
         static void EkranaYaZ(string metin)
