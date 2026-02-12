@@ -1,0 +1,40 @@
+namespace ek_ders_hesapla_method
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Sınav notunuzu giriniz:");
+            int not = Convert.ToInt32(Console.ReadLine());
+
+            int saat = ekDersHesapla(not);
+            Console.WriteLine("Ek ders saati: " + saat);
+
+        }
+        static int ekDersHesapla(int not)
+        {
+            int dersSaati = 0;
+
+
+            if (not >= 85)
+            {
+                dersSaati = 0; // Pekiyi
+            }
+            else if (not >= 70)
+            {
+                dersSaati = 2; // İyi
+            }
+            else if (not >= 50)
+            {
+                dersSaati = 5; // Orta
+            }
+            else
+            {
+                dersSaati = 10; //  (50'den küçükse)
+            }
+            return dersSaati;
+
+        }
+    }
+}
