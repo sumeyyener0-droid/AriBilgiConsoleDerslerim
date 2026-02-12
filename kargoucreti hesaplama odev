@@ -1,0 +1,48 @@
+namespace kargo_ucreti_tahmini_method
+{
+    internal class Program
+    {
+       
+            static void Main(string[] args)
+            {
+
+                Console.Write("Ürün fiyatını giriniz: ");
+                double fiyat = Convert.ToDouble(Console.ReadLine());
+
+                Console.Write("Ürün ağırlığını giriniz: ");
+                double agirlik = Convert.ToDouble(Console.ReadLine());
+
+                double kargoUcreti = kargoHesapla(0, fiyat, agirlik, 0);
+
+
+
+
+                Console.WriteLine("\nÖdenecek kargo: " + kargoUcreti + " TL");
+                Console.WriteLine("Toplam Tutar: " + (fiyat + kargoUcreti) + " TL");
+            }
+
+            static double kargoHesapla(double kargoUcreti, double urunFiyati, double urunAgirligi, double toplam)
+            {
+
+
+                if (urunFiyati < 1000)
+                {
+                    kargoUcreti = urunAgirligi * 10;
+                    toplam = kargoUcreti + urunFiyati;
+                    Console.WriteLine("toplam ödenecek tutar:" + toplam);
+                }
+                else if (kargoUcreti >= 1000)
+                {
+                    Console.WriteLine("KARGO BEDAVA:" + urunFiyati);
+                }
+
+                return kargoUcreti;
+
+
+                {
+                }
+            }
+        }
+    }
+
+
