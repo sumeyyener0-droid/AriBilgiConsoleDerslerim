@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260212_2_emekli_method_orne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260213_1_emekli_hocacozum", "260213_1_emekli_hocacozum\260213_1_emekli_hocacozum.csproj", "{49321DB7-CEA7-45B1-8661-E6D16C721DD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260213_2_Overload_methodu", "260213_2_Overload_methodu\260213_2_Overload_methodu.csproj", "{5D96E408-E9AA-4950-BC19-A88A4D75E9E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{49321DB7-CEA7-45B1-8661-E6D16C721DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49321DB7-CEA7-45B1-8661-E6D16C721DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49321DB7-CEA7-45B1-8661-E6D16C721DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D96E408-E9AA-4950-BC19-A88A4D75E9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D96E408-E9AA-4950-BC19-A88A4D75E9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D96E408-E9AA-4950-BC19-A88A4D75E9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D96E408-E9AA-4950-BC19-A88A4D75E9E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -243,6 +249,7 @@ Global
 		{0A6C20FB-22B4-4511-B1B6-D5A77BFC1D63} = {61B58BB9-8C2B-45DC-BC25-25B3792C1B93}
 		{4CCC4EF0-0950-4ED3-B6A6-EBE3AB090CCA} = {61B58BB9-8C2B-45DC-BC25-25B3792C1B93}
 		{49321DB7-CEA7-45B1-8661-E6D16C721DD5} = {61B58BB9-8C2B-45DC-BC25-25B3792C1B93}
+		{5D96E408-E9AA-4950-BC19-A88A4D75E9E3} = {61B58BB9-8C2B-45DC-BC25-25B3792C1B93}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71113CE3-D63B-4187-801C-91F0BDC86E51}
