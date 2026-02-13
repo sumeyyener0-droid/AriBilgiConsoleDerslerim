@@ -18,10 +18,23 @@ yaş 65 ve üstü ise, prim 8500 ise kişi maaşının 17.5 katı kadar ikramiye
 bu şartlara kişi emekli ise alacağı ikramiye, emekli değilse emekli olmama nedenini veren yapıyı kodlayınız
 NOT: Cinsiyet seçimi switch case ile yapılacaktır
  */
-            Console.WriteLine("cinsiyet giriniz");
-            string cinsiyet = Convert.ToString(Console.ReadLine());
+            string cinsiyet = "";
+            while (true)
+            {
+                Console.WriteLine("cinsiyet giriniz");
+                 cinsiyet = Convert.ToString(Console.ReadLine());
+                if(cinsiyet=="kadın"|| cinsiyet=="bayan"|| cinsiyet=="bay"|| cinsiyet=="erkek")
+                {
+                    break;
+                }
+                else 
+                {
+                    Console.WriteLine("hatalı cinsiyet girişi");
+                }
 
-            Console.WriteLine("yaş giriniz");
+            }
+
+                Console.WriteLine("yaş giriniz");
             int yas = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Primgün sayısı giriniz");
@@ -31,8 +44,16 @@ NOT: Cinsiyet seçimi switch case ile yapılacaktır
             double maas = Convert.ToDouble(Console.ReadLine());
 
 
-            EmekliHesapla(cinsiyet,yas,primGun,maas);
+            double ikramiye=EmekliHesapla(cinsiyet,yas,primGun,maas);
             Console.ReadLine();
+            if(ikramiye>0)
+            {
+                Console.WriteLine("emekli oldunuz ikramiyeniz:"+ikramiye);
+            }
+            else
+            {
+
+            }
                  
         }
 
@@ -65,9 +86,10 @@ NOT: Cinsiyet seçimi switch case ile yapılacaktır
                         Console.WriteLine("maaşınız:");
 
                     }
+                  
 
 
-                    break;
+                        break;
 
                 case "erkek":
                     if (yas >= 65 && primGun >= 8500)
